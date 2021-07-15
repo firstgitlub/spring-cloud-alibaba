@@ -10,6 +10,11 @@
         <relativePath/>
     </parent>
 
+    <!-- 这个就是spring cloud的真正发布的版本依赖
+    spring-cloud-starter-config 作为应用的依赖pom。里面包含了很多独立子项目，属于一个集成
+    Spring-boot是独立于spring-cloud发行版本发布的，会存在spring-boot与spring-cloud版本不兼容的问题
+     参考spring-cloud网站，可以看到spring-boot 和 springcloud之间的版本依赖项-->
+
     <groupId>com.alibaba.cloud</groupId>
     <artifactId>spring-cloud-alibaba-dependencies</artifactId>
     <version>${revision}</version>
