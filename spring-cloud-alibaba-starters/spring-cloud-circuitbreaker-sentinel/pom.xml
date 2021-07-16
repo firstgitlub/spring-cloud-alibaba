@@ -21,6 +21,7 @@
             <artifactId>spring-cloud-commons</artifactId>
         </dependency>
 
+        <!-- 这个断路器  和 Hystrix 应该就是断路器的不同实现吧 -->
         <dependency>
             <groupId>com.alibaba.csp</groupId>
             <artifactId>sentinel-core</artifactId>
