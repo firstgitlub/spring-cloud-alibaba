@@ -31,6 +31,12 @@ import org.springframework.util.StringUtils;
 /**
  * @author xiaojing
  * @author <a href="mailto:mercyblitz@gmail.com">Mercy</a>
+ *
+ *
+ * https://mp.weixin.qq.com/s/Qk-jBUOlw9nAz8V1bI-r6g
+ *
+ * Nacos 配置中心的实现原理
+ *
  */
 public class NacosAutoServiceRegistration
 		extends AbstractAutoServiceRegistration<Registration> {
