@@ -64,6 +64,12 @@ public class NacosServiceRegistry implements ServiceRegistry<Registration> {
 			return;
 		}
 
+		/**
+		 * https://mp.weixin.qq.com/s/Qk-jBUOlw9nAz8V1bI-r6g
+		 *
+		 * 这里面调用的就是 Nacos架构图中的 部分组件功能 NamingService
+		 * Naming Service 是Nacos提供的命名服务模块
+		 */
 		NamingService namingService = namingService();
 		String serviceId = registration.getServiceId();
 		String group = nacosDiscoveryProperties.getGroup();
